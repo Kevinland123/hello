@@ -5,7 +5,7 @@ AC_INIT([hello], [1.0])
 AC_CONFIG_SRCDIR([hello.cpp])
 
 # Puts aux files in that folder
-AC_CONFIG_AUX_DIR([./trash])
+AC_CONFIG_AUX_DIR([./aux_files])
 
 # Make config header
 AC_CONFIG_HEADERS([config.h])
